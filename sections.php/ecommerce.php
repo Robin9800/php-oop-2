@@ -9,6 +9,16 @@
             $this->address = $address;
             $this->phoneNumber = $phoneNumber;
         }
+
+        public function ecommerceInfo(){
+            return "
+            <div>
+                <h2>" . $this->name . "</h2>
+                <p>" . $this->address . "</p>
+                <img src=". $this->phoneNumber .">
+            </div>
+        ";
+        }
     }
 
 ?>
