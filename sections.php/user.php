@@ -8,6 +8,7 @@ class Utente{
     public $address;
     public $email;
     public $userDiscount;
+    public $registered;
 
     function __construct($_idUser,$_name,$_surname,$_dateOfBirth,$_address, $_email){
         $this->idUser = $_idUser;
